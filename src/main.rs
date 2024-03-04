@@ -5,7 +5,7 @@ use rand::Rng;
 #[derive(Parser)]
 #[command(version)]
 struct Cli {
-    /// Describe argument here
+    /// Sentence to scramble, without quotes
     sentence: Vec<String>,
 }
 
